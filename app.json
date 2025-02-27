@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "numberplate-fun",
+    "name": "Numberplate Fun",
     "slug": "numberplate-fun",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,10 +8,13 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -22,7 +25,18 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "Numberplate Fun",
+      "shortName": "Numberplates",
+      "description": "Capture and analyze interesting numberplates",
+      "lang": "en",
+      "themeColor": "#ffffff",
+      "backgroundColor": "#ffffff",
+      "display": "standalone",
+      "orientation": "portrait",
+      "scope": "/numberplate-fun/",
+      "startUrl": "/numberplate-fun/",
+      "bundler": "webpack"
     }
   }
 }
