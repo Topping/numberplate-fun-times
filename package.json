@@ -12,11 +12,11 @@
     "serve-web": "npx serve web-build"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.21.0",
+    "@react-native-async-storage/async-storage": "1.21.0",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/native-stack": "^6.9.17",
-    "expo": "~52.0.0",
-    "expo-camera": "~13.6.0",
+    "expo": "~50.0.0",
+    "expo-camera": "~14.0.0",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.2",
@@ -24,7 +24,7 @@
     "react-native-screens": "~3.29.0",
     "react-native-web": "~0.19.6",
     "react-dom": "18.2.0",
-    "@expo/webpack-config": "^19.0.0"
+    "@expo/webpack-config": "~19.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
